@@ -14,7 +14,7 @@ class TrafficClassifier(object):
         self.icmp_count = 0
 
     def _handle_PacketIn(self, event):
-        print("\n!!! I SEE A PACKET !!!\n")
+#        print("\n!!! I SEE A PACKET !!!\n")
         packet = event.parsed
         if not packet.parsed: return
 
